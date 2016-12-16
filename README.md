@@ -13,11 +13,11 @@ curl -X POST --header "Content-Type: application/x-www-form-urlencoded" --header
 {"language": "en"}
 
 
-curl -X POST --header "Content-Type: application/x-www-form-urlencoded" --header "Accept: application/json" -d "/text" "http://localhost:8000/text=Vaig+neixer+a+un+poble+de+Tarragona%3F"
+curl -X POST --header "Content-Type: application/x-www-form-urlencoded" --header "Accept: application/json" -d "/text" "http://localhost:8000/text=Vaig+neixer+a+un+lloc+molt+bonic%3F"
 
 {"language": "ca"}
 
-curl -X POST --header "Content-Type: application/x-www-form-urlencoded" --header "Accept: application/json" -d "/text"  "http://localhost:8000/text=Pero+hace+casi+doce+años+que+estoy+en+Barcelona%3F"
+curl -X POST --header "Content-Type: application/x-www-form-urlencoded" --header "Accept: application/json" -d "/text"  "http://localhost:8000/text=Pero+hace+casi+doce+años+que+estoy+en+fuera%3F"
 
 {"language": "es"}
 
